@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="CSS/components/node-card.css"> 
         <link rel="stylesheet" href="CSS/components/main-carousel.css"> 
         <link rel="stylesheet" href="CSS/components/main-label.css">
+        <link rel="stylesheet" href="CSS/components/main-form.css">
         <link rel="stylesheet" href="CSS/components/main-footer.css">
         <link rel="stylesheet" href="CSS/components/main-input.css">      
     </head>
@@ -200,7 +201,10 @@
             </p>
         </section>
 
-        <form action="">
+        <form class="main-form" action="">
+
+            <h2 class="main-title -second">Contatos</h2>
+
             <label class="main-label" for="name">Nome</label>
             <input class="main-input"  id="name" type="text">
 
@@ -208,9 +212,9 @@
             <input class="main-input"  id="email" type="email">
 
             <labe class="main-label" for="message">Mensagem</labe>
-            <textarea class="main-input" id="message"></textarea>
+            <textarea class="main-input -textarea" id="message"></textarea>
 
-            <button type="submit">Enviar</button>
+            <button class="main-button -contact" type="submit">Enviar</button>
         </form>
 
         <footer class="main-footer">
